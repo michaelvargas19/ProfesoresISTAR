@@ -1,0 +1,297 @@
+.imagen{
+    
+    width: 40%;
+    
+    float: left;
+    margin-top: 0;
+
+}
+
+.informacion{
+    
+    width: 54%;
+    height: auto;
+    float: left;
+    
+
+  
+}
+
+.publicaciones    {
+    
+    width: 95%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;     
+}
+
+
+
+
+.extracto{
+
+    border: solid 1px dimgrey;
+    box-shadow: 4px 8px gray;
+    width: 100%;
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background: snow;
+    margin-top: 0;
+
+
+}
+
+
+.news{
+    border: solid 1px dimgrey;
+    box-shadow: 4px 8px gray;
+    
+    float: left;
+    width: 30%;
+    height: 180px;
+    margin-top: 10px;
+    background: snow;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+    
+}
+
+.amarillo{
+    border: solid yellow;
+    width: 100%;
+    height: 20px;
+    display: inline-table;
+}
+
+img{
+    
+    width:100%;
+    height:100%;
+    margin:auto;
+    margin-top: 0;
+    margin-right: 100px;
+    vertical-align: top;
+    
+}
+
+body{
+    margin-top: 5px;
+    justify-content:center;
+    background: white;
+}
+
+.perfil{
+    width:100%;
+    height:100%;
+    margin:auto;
+    border-radius: 30%;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.istar{
+    width: 25%;
+    display: table-cell;    
+    vertical-align: middle;
+}
+
+.datos{
+    vertical-align: middle;
+    
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.info{
+
+    border: solid 1px dimgrey;
+    box-shadow: 4px 8px gray;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    background: snow;
+    width: 25%;
+    height: auto;
+    float: left;
+
+     
+    
+}
+
+
+.miembro{
+    
+    
+    width: 75%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor:  progress;
+}
+
+.primaryA{
+    font-style: italic;
+}
+
+.blanco{
+width: 20%;
+}
+
+.titulo{
+    
+    width: 100%;
+    height: auto;
+    display: table-cell;    
+    text-align: right;    
+}
+
+.url{
+    margin-left: 45%;
+    
+}
+
+.cv{
+    margin-left: 30px;
+    font-style: italic;
+} 
+.h3t{
+    margin-top: 10px;
+    margin-left: 0;
+    float: left;
+    border-bottom:solid  gray ;
+}
+
+  #contenedor {
+    
+    width: 73%;
+    height: auto;  
+    margin: 0 auto;
+    float: left;
+    background: white;
+    justify-content:center
+    }
+   
+  #cabecera {
+    background: navy;
+    
+    height: auto;
+    width: 100%;
+    display: inline-table;
+    }
+
+   
+  #lzquierda  {
+    
+
+    float: left;
+   
+    height: auto;
+    width: 35%;
+    
+    
+    }
+
+    #Derecha  {
+    float: left;
+        height: auto;
+        width: 90%;
+        
+        
+    }
+    #Centro  {
+    
+        margin-top: 10px;
+        display: table;
+        
+        height: auto;
+        width: 100%;
+        display: inline-table;
+        
+        }
+   
+    #principalCentro  {
+        margin-top: 70px;
+        display: table;
+        background: transparent;
+        display: table-cell;
+        height: 2%;
+        width: 100%;
+        }
+
+        
+    #equipo  {
+
+        background: #fff;
+        display: table;
+        
+        display: table-cell;
+        height: auto;
+        width: 15%;
+        margin-top: 50px;
+        margin-left: 10px;
+        }
+
+  .pie  {
+    
+    background: white;
+    border-top: solid 1px slategray;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    
+    }
+
+
+/*---------------------------------------------MODAL*/
+p{
+    text-align: justify;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.cabecera_text{
+    vertical-align: text-bottom;
+    color: mintcream;
+    margin-bottom: 0px;
+    margin-top:0px;
+    margin-right: 15px;
+}
+
+h2,h4{
+    margin-bottom: 0px;
+    margin-top:0px;
+    margin-left: 24px;
+}
+
+h3{
+    margin-top: 0;
+    margin-bottom: 7px;
+    margin-left: 12px;
+}
+
+output{
+    margin-left: 30px;
+    text-align: justify;
+}
+
+h1{
+    margin-top: 60px;
+    margin-left: 24px;
+    margin-bottom: 5px;
+}
+
+
+/*---------------------------------*/

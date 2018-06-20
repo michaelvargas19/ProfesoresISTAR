@@ -1,0 +1,35 @@
+<div class="fondo">
+
+<h1>Book Chapters</h1>
+
+<div class="componente">
+  
+
+    <ul>
+         <li class="publicacion" *ngFor="let c of capitulos">
+
+            <h3>{{c.titulo}}</h3>
+            
+            <label for="fechaPublicacion">Publication: </label>
+            <output type="text" name="fechaPublicacion" id="fechaPublicacion" value="{{c.fechaPublicacion}}"></output>
+            <br>
+            <label for="libro">Book: </label>
+            <output type="text" name="libro" id="libro" value="{{c.libro}}"></output>
+            <br>
+            <br>
+            <label for="temas">Topics: </label>
+            <output type="text" name="temmas" id="temas" value="{{getTemas(c)}}"></output>
+            <br>
+            <br>
+            <label for="temas">Authors: </label>
+            <p>
+                {{getAutores(c)}}
+            </p>
+
+        </li>    
+
+    </ul>
+
+</div>
+
+</div>

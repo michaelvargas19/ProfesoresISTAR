@@ -1,0 +1,315 @@
+
+			* {
+				margin:0px;
+                padding:0px;
+                
+			}
+			
+			#header {
+				margin:auto;
+				width: 100%;
+                font-family:Arial, Helvetica, sans-serif;
+                
+			}
+			
+			ul, ol {
+                list-style:none;
+                
+			}
+			
+			.nav > li {
+                float:left;
+                width: 20%;
+                
+			}
+			
+			.nav li a {
+                
+                font-size: 20px;
+                font-family: calibri, helvetica, sans-serif;
+				background-color:#FFE900	;
+				color:navy;
+                text-decoration:none;
+                text-align: center;
+				padding:10px 15px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+                background-color: navy;
+                color: white;
+                
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+                min-width:140px;
+                
+			}
+			
+			.nav li:hover > ul {
+                display:block;
+                width: 15%;
+                
+			}
+			
+			.nav li ul li {
+                position:relative;
+                
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+                top:0px;
+                
+			}
+
+/*----------------------------------------------------*/
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+/*-----------------------------------------------------------------XD*/
+
+
+
+.imagen{
+    
+    width: 40%;
+    display: table-cell;
+
+}
+
+.informacion{
+    
+    width: 60%;
+    height: auto;
+    display: table-cell;
+  
+  
+}
+
+.publicaciones    {
+    
+    width: 95%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;     
+}
+
+.extracto{
+    border: solid 1px dimgrey;
+    box-shadow: 4px 8px gray;
+    width: 95%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.amarillo{
+    border: solid yellow;
+    width: 100%;
+    height: 20px;
+    display: inline-table;
+}
+
+img{
+    
+    width:100%;
+    height:100%;
+    margin:auto;
+    
+    vertical-align: top;
+    
+}
+.perfil{
+    width:100%;
+    height:100%;
+    margin:auto;
+    border-radius: 30%;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.istar{
+    width: 35%;
+    align-content: space-between;
+    float: right;
+    
+    background: white;
+    object-fit: cover;
+}
+
+
+.logo{
+    width: 30%;
+    height: 110px;
+    display: table-cell;    
+    float: left;
+    padding: 20px;
+
+    
+}
+
+.datos{
+    vertical-align: middle;
+    
+    width: 95%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.miembro{
+    
+    border: solid 1px green;
+    width: 75%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor:  progress;
+}
+
+.cargo{
+    font-style: italic;
+}
+
+.blanco{
+width: 20%;
+}
+
+.titulo{
+    background-color: white;
+    width: 35%;
+    height: auto;
+    float: right; 
+    text-align: right;    
+
+}
+
+
+
+   
+  #contenedor {
+    width: 75%;
+    height: auto;  
+    margin: 0 auto;
+    background: transparent;
+    
+    }
+   
+  #cabecera {
+
+    background: linear-gradient(100deg, white, navy);
+
+    
+    height: auto;
+    width: 100%;
+    display: inline-table;
+    }
+
+   
+  #principalIzquierda  {
+    
+    display: table;
+    background: solid blue;
+    display: table-cell;
+    height: auto;
+    width: 30%;
+    
+    }
+   
+    #principalDerecha  {
+        background: #fff;
+        display: table;
+        background: solid aqua;
+        display: table-cell;
+        height: 2%;
+        width: 30%;
+        }
+
+        
+    #equipo  {
+
+        background: #fff;
+        display: table;
+        border: solid 1px dimgrey;
+        display: table-cell;
+        height: auto;
+        width: 15%;
+        margin-top: 50px;
+        margin-left: 10px;
+        }
+
+  #pie  {
+    background: white;
+    
+    width: 100%;
+    height: auto;
+    }
+
+
+/*---------------------------------------------MODAL*/
+p{
+    text-align: justify;
+    margin-right: 25px;
+    margin-left: 25px;
+    
+}
+
+.cabecera_text{
+    vertical-align: text-bottom;
+    color: navy;
+    margin-bottom: 0px;
+    margin-top:0px;
+    margin-right: 15px;
+}
+
+h2,h4{
+    margin-bottom: 0px;
+    margin-top:0px;
+    
+}

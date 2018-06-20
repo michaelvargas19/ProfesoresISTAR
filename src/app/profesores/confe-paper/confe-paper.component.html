@@ -1,0 +1,23 @@
+<div class="fondo">
+
+<h1>Conference Papers</h1>
+<div class="componente">
+  
+
+        <ul>
+                <li class="publicacion" *ngFor="let e of eventos">
+                        
+                        <h3>{{e.nombre}}</h3>
+
+                        <label for="tipoEvento">Type:  </label>
+                        <output type="text" name="tipoEvento" id="tipoEvento" value="{{e.tipoEvento}}"></output>
+                        <br>
+                        <label for="ciudad">City: </label>
+                        <output type="text" name="ciudad" id="ciudad" value="{{e.ciudad}}"></output>
+                <br>
+                <br>
+                </li>
+        </ul>
+</div>
+
+</div>

@@ -1,0 +1,32 @@
+<div class="fondo">
+
+<h1>Articles</h1>
+
+<div class="componente">
+  
+
+<ul>
+  <li class="publicacion" *ngFor="let a of articulos">
+      
+        <h3>{{a.titulo}}</h3>
+      
+      <label for="fechaPublicacion">Publication: </label>
+      <output type="text" name="fechaPublicacion" id="fechaPublicacion" value="{{a.fechaPublicacion}}"></output>
+      <br>
+      <label for="revista">Journal: </label>
+      <output type="text" name="revista" id="revista" value="{{a.revista}}"></output>
+      <br>
+      <label for="temas">Topics: </label>
+      <output type="text" name="temas" id="temas" value="{{getTemas(a)}}"></output>
+      <br>
+      <label for="autores">Authors: </label>
+      <p>
+              {{getAutores(a)}}
+          </p>
+
+        </li>
+        
+</ul>
+</div>
+
+</div>

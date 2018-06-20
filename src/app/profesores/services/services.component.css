@@ -1,0 +1,319 @@
+.imagen{
+    
+    width: 40%;
+    
+    
+    float: left;
+    margin-top: 0;
+
+}
+
+.informacion{
+    margin-top: 0;
+    width: auto;
+    height: auto;   
+    
+    
+    
+}
+
+.study{
+
+    width: 95%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 4    0px;   
+    border-bottom: solid 1px dimgrey;  
+}
+
+
+
+
+.bio{
+
+    border: solid 1px dimgrey;
+    box-shadow: 4px 8px gray;
+    width: 95%;
+    font-size: 23px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background: snow;
+    
+
+}
+
+
+.service{
+
+    
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.li{
+
+    
+    background: snow;
+    text-align: justify;   
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.amarillo{
+    border: solid yellow;
+    width: 100%;
+    height: 20px;
+    display: inline-table;
+}
+
+img{
+    
+    width:100%;
+    height:100%;
+    margin:auto;
+    margin-top: 0;
+    margin-right: 100px;
+    vertical-align: top;
+    
+}
+
+body{
+    margin-top: 5px;
+    
+    background: transparent;
+}
+
+.perfil{
+    width:100%;
+    height:100%;
+    margin:auto;
+    border-radius: 30%;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.istar{
+    width: 25%;
+    display: table-cell;    
+    vertical-align: middle;
+}
+
+.datos{
+
+    width: auto;
+    height: auto;
+
+}
+
+
+.info{
+
+    border: solid 1px dimgrey;
+    box-shadow: 4px 8px gray;
+    background: snow;
+    width: 95%;
+    height: auto;
+    
+}
+
+
+.miembro{
+        
+    width: 75%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor:  progress;
+}
+
+.primaryA{
+    font-style: italic;
+    margin-left: 35px;
+}
+
+.blanco{
+width: 20%;
+}
+
+.titulo{
+    
+    width: 100%;
+    height: auto;
+    display: table-cell;    
+    text-align: right;    
+}
+
+.url{
+    margin-left: 45%;
+    
+}
+
+.cv{
+    margin-left: 30px;
+    font-style: italic;
+} 
+.h3t{
+    margin-top: 10px;
+    margin-left: 0;
+    
+    border-bottom:solid  gray ;
+}
+
+  #contenedor {
+    
+    width: 73%;
+    height: auto;  
+    margin: 0 auto;
+    
+    background: white;
+    border: solid 1px dimgrey;
+    box-shadow: 4px 8px gray;
+    
+    }
+   
+  #cabecera {
+    background: navy;
+    
+    height: auto;
+    width: 100%;
+    display: inline-table;
+    }
+
+   
+  #lzquierda  {
+    
+
+    float: left;
+   
+    height: auto;
+    width: 35%;
+    
+    
+    }
+
+    #Derecha  {
+        
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+        
+    }
+    #Centro  {
+    
+        margin-top: 10px;
+        display: table;
+        
+        height: auto;
+        width: 100%;
+        display: inline-table;
+        
+        }
+   
+    #principalCentro  {
+        background: white;
+        width: 100%;
+
+    }
+
+        
+    #equipo  {
+
+        background: #fff;
+        display: table;
+        
+        display: table-cell;
+        height: auto;
+        width: 15%;
+        margin-top: 50px;
+        margin-left: 10px;
+        }
+
+  #pie  {
+    background: white;
+    
+    width: 100%;
+    height: auto;
+    }
+
+    .fondo {
+        
+        width: 80%;
+        height: auto;  
+        margin-top: 10px;
+        background: white;
+        
+    }
+
+
+/*---------------------------------------------MODAL*/
+p{
+        text-align: justify;
+    margin-right: 25px;
+    margin-left: 25px;
+    
+}
+
+.cabecera_text{
+    vertical-align: text-bottom;
+    color: mintcream;
+    margin-bottom: 0px;
+    margin-top:0px;
+    margin-right: 15px;
+}
+
+h2,h4{
+    margin-bottom: 0px;
+    margin-top:0px;
+    margin-left: 24px;
+}
+
+
+
+h1{
+
+    margin-left: 24px;
+    margin-bottom: 5px;
+}
+
+label{
+    font-size: 20px;
+    display: inline-block;
+    width: 80px;
+  }
+  
+  output{
+    text-align: justify;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  
+  p{
+    font-style: italic;
+    text-align: justify;
+    font-size: 18px;
+    margin-right: 25px;
+    margin-left: 100px;
+    margin-top: 0px;
+  }
+
+  h3{
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    }

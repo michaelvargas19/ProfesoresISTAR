@@ -1,0 +1,110 @@
+
+
+<div id="contenedor">
+    
+  <!-- Capa destinada al header -->
+   
+ <div id="cabecera">
+  <div class="logo">
+      <img src="http://pegasus.javeriana.edu.co/static/puj_horizontal.png">
+  </div>
+  
+  <div class="istar">
+      
+        <img src="https://sophia.javeriana.edu.co/istar/sites/default/files/imagenesIstar/Imagen1.jpg">
+      
+  </div>
+
+      <div class="titulo">
+      <h1 class="cabecera_text">Grupo de Investigación</h1>
+      <h3 class="cabecera_text">Departamento de Ingeniería de Sistemas</h3>
+      </div>
+
+
+
+  </div>  
+
+   
+  
+  
+  <!-- Capa de contenidos, columnas, etc. -->
+   
+ <div id="principalIzquierda">
+
+  <div class="tab">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#" (click)="openCity($event, 'Profile')">PROFILE  </a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">PUBLICATIONS
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a class="p" href="#" (click)="openCity($event, 'Articles')" >Articles</a></li>
+                <li><a href="#" (click)="openCity($event, 'Books')" >Books</a></li>
+                <li><a href="#" (click)="openCity($event, 'BookChapters')" >Book Chapters</a></li>
+                <li><a href="#" (click)="openCity($event, 'CPapers')" >Conference Papers</a></li>
+                <li><a href="#" (click)="openCity($event, 'Projects')" >Projects</a></li> 
+              </ul>
+            </li>
+            <li><a href="#" (click)="openCity($event, 'Service')" >SCIENTIFIC SERVICE</a></li>
+            <li><a href="#" (click)="openCity($event, 'Education')" >EDUCATION</a></li>
+            <li><a href="#" (click)="openCity($event, 'BIO')" >BIO</a></li>
+          </ul>
+  </div>
+
+
+<!-- Tab content -->
+
+<div id="Profile" class="tabcontent">
+  <profile [profesor]="profesor" ></profile>
+</div>
+
+<div id="Articles" class="tabcontent">
+  <articles [profesor]="profesor"></articles>
+</div>
+
+<div id="Books" class="tabcontent">
+    <books [profesor]="profesor"></books>
+</div>
+
+<div id="BookChapters" class="tabcontent">
+    <book-char [profesor]="profesor"></book-char>
+</div>
+
+<div id="CPapers" class="tabcontent">
+    <confe-paper [profesor]="profesor"></confe-paper>
+</div>
+
+<div id="Projects" class="tabcontent">
+    <projects [profesor]="profesor"></projects>
+</div>
+
+<div id="Service" class="tabcontent">
+  <services [profesor]="profesor"   ></services>
+</div>
+
+<div id="Education" class="tabcontent">
+  <education [profesor]="profesor" ></education>
+</div>
+
+<div id="BIO" class="tabcontent">
+  <biography [profesor]="profesor" ></biography>
+</div>
+
+
+</div>
+  
+</div>
+
+ 
+  
+
+  <!-- Capa para el pie de página -->
+   
+ <div id="pie">   
+
+
+  </div>
+  
+
+
+  

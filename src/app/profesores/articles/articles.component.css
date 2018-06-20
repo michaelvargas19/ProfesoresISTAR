@@ -1,0 +1,69 @@
+.publicacion    {
+    border-bottom: solid 1px dimgrey;
+    width: 95%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .componente{
+    border: solid 1px dimgrey;
+    box-shadow: 4px 8px gray;
+    width: 90%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    margin-left: 20px;   
+    background: white;
+  }
+  
+  .fondo {
+        
+    width: 80%;
+    height: auto;  
+    margin-top: 10px;
+    background: white;
+    
+}
+
+
+  label{
+    font-size: 20px;
+    display: inline-block;
+    width: 80px;
+  }
+  
+  output{
+    text-align: justify;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 120px;
+  }
+  
+  p{
+    font-style: italic;
+    text-align: justify;
+    font-size: 18px;
+    margin-right: 25px;
+    margin-left: 100px;
+    margin-top: 0px;
+  }
+
+  
+h2{
+  margin-top: 0;
+  margin-bottom: 7px;
+  margin-left: 12px;
+}
+h3{
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+h1{
+
+  margin-left: 24px;
+  margin-bottom: 5px;
+}

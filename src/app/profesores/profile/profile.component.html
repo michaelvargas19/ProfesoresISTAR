@@ -1,0 +1,115 @@
+<body>
+ 
+    <!-- Contenedor para toda la página -->
+     
+   <div id="contenedor">
+    
+     
+   <div id="principalCentro">
+        
+        <div class="imagen">
+        
+            <img class="perfil" src="{{profesor.urlFoto}}">
+
+        </div>  
+
+
+        <div class="informacion">
+            <div class="datos">
+                <h1>{{profesor.nombre}}</h1>
+                <h2>{{profesor.titular}}</h2>
+                <h4>{{profesor.puesto.cargo}}</h4>
+                       
+            </div>
+
+        </div>
+    
+
+        <div id="Centro">
+            
+      
+
+                <div id="Derecha">
+
+                  <div class="extracto">
+                        
+                        <p>{{profesor.extracto}}</p>
+                    </div>
+
+                </div>
+
+        </div>
+        
+
+
+
+
+    </div>
+
+      
+   <div class="pie">   
+
+            <h2>News</h2>
+        
+            
+                <div class="news" *ngFor="let n of profesor.news">
+        
+                    <h3 >{{n.tittle}}  </h3>
+                    <p>
+                            {{n.description}} 
+                            <br>
+                            <a class="url" href="{{n.url}}">View</a>
+                    </p>
+        
+                </div> 
+        
+  
+
+    </div>
+
+  </div>
+
+  
+  <div class="info">
+        <h2>Contact Information</h2>
+        <h4>Address: </h4>
+        <p>{{profesor.infoContact.address}}</p>
+        <h4>Office: </h4>
+        <p>{{profesor.infoContact.office}}</p>
+        <h4>Email: </h4>
+        <p>{{profesor.infoContact.email}}</p>
+        <h4>Office Phone: </h4>
+        <p>{{profesor.infoContact.officePhone}} ext. ({{profesor.infoContact.extension}})</p>
+        <h3>PRIMARY TEACHING AREA</h3>
+        <output class="primaryA" type="primaryA" name="primaryA" id="primaryA" value="{{profesor.primaryArea}}"></output>
+        <br>
+        <br>
+        <h3>FACULTY CV</h3>
+        <a class="cv" href="facebook.com">Download CV</a>
+        <br>
+        <br>
+    </div>
+
+
+    <div  class="info">
+        <h2>Research Interests</h2>
+        <br>
+
+          <div class="li" *ngFor="let i of profesor.interests">
+                
+           
+           
+                      <h4>{{i.area}}</h4>
+                      
+                      <ul *ngFor="let t of i.topics">
+                       
+                        <li class="primaryA">{{t}}</li>
+                 
+                      </ul>
+    
+                    
+                    </div> 
+    </div>
+    
+
+</body>

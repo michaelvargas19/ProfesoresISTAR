@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+    justify-content:center;
+}
+
+body{
+    background-color: lightgray;
+    font-family: calibri, helvetica, sans-serif;
+    
+}
+
+label{
+    font-weight:bold;
+}

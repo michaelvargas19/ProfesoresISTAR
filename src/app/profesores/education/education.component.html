@@ -1,0 +1,58 @@
+<div class="fondo">
+ 
+  <!-- Contenedor para toda la página -->
+  <h1>Teaching</h1>
+
+ <div id="contenedor">
+  
+
+      
+      
+    <ul>
+        <li class="study" *ngFor="let t of profesor.teachings">
+            
+          <h3>{{t.name}} </h3>
+          <output class="primaryA"  type="text" name="year" id="year" >from {{t.yearStart}} to {{t.yearEnd}}</output>
+          <br>
+          <br>
+            <output  type="text" name="description" id="description" value="{{t.description}}"></output>
+            <br>
+            <br>
+                          
+        </li>
+      </ul>
+  
+
+</div>
+
+
+
+
+
+<h1>Students</h1>
+
+<div id="contenedor">
+
+
+      
+   
+    <ul>
+      <li class="study" *ngFor="let s of profesor.students">
+          
+        <h3>{{s.name}} </h3>
+          <output  type="text" name="text" id="text" >Thesis topic: {{s.topic}}. ({{s.state}}) </output>
+          <br>
+          <output class="primaryA" type="text" name="time" id="time" > {{s.dateStart}} - {{s.dateEnd}} </output>    
+          <br>
+          <br> 
+      </li>
+    </ul>
+
+
+</div>
+
+  
+
+
+
+</div>

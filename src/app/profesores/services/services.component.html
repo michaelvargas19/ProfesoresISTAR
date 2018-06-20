@@ -1,0 +1,41 @@
+<div class="fondo">
+ 
+  <!-- Contenedor para toda la página -->
+  <h1>Listings of Scientific Service</h1>  
+ <div id="contenedor">
+  
+
+
+
+  <div id="principalCentro">
+      <br>
+      <br>
+      
+    <ul>
+        <li class="study" *ngFor="let s of profesor.scientifics">
+            
+          <h3>{{s.tittle}} </h3>
+            <output  type="text" name="type" id="type" >{{s.type}}, {{s.entity}} ({{s.country}}), {{s.ambit}}</output>
+            <br>
+            <output  class="primaryA" type="text" name="year" id="year" value="{{s.year}}"></output>
+            <br>
+            <br>
+            
+      
+                          
+        </li>
+      </ul>
+  </div>
+
+
+
+
+
+  
+</div>
+
+
+
+
+  
+</div>

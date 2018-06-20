@@ -1,0 +1,31 @@
+<div class="fondo">
+
+<h1>Projects</h1>
+
+<div class="componente">
+  
+<ul>
+        <li class="publicacion" *ngFor="let p of proyectos">
+                
+                <h3>{{p.titulo}}</h3>          
+                
+                <label for="codigo">Code: </label>
+                <output type="text" name="codigo" id="codigo" value="{{p.codigo}}"></output>
+                <br>
+                <label for="type">Type: </label>
+                <output type="text" name="type" id="type" value="{{p.tipo}}"></output>
+                <br>
+                <label for="resumen">Summary: </label>
+                <output type="text" name="resumen" id="resumen" value="{{p.resumen}}"></output>
+                <br> 
+                <label for="autores">Authors: </label>
+                <p>
+                        {{getAutores(p)}}
+                </p>
+
+        </li>
+</ul>
+
+</div>
+
+</div>

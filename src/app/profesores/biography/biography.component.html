@@ -1,0 +1,97 @@
+<body>
+ 
+    <!-- Contenedor para toda la página -->
+     
+   <div id="contenedor">
+    
+     
+   <div id="principalCentro">
+        
+    
+        <div class="informacion">
+
+            <div class="datos">
+
+                <h1>{{profesor.nombre}}</h1>
+                <h2>Biography</h2>
+                                     
+            </div>
+
+        </div>
+
+
+        <div id="Centro">
+            
+          <div id="Derecha">
+                  
+                    <div class="bio">
+                        
+                        <p>{{profesor.extracto}}</p>
+                    </div>
+
+          </div>
+
+        </div>
+        
+
+
+    </div>
+
+
+    <div id="principalCentro">
+        
+      
+        <h2>Studies</h2>
+    <div class="studies">
+    <ul>
+          <li class="study" *ngFor="let e of profesor.educacion">
+              
+            <h3>{{e.institucion}} </h3>
+              <output  type="text" name="institution" id="institution" value="{{e.titulacion}}"></output>
+              <br>
+              <output  type="text" name="disciplia" id="disciplia" value="{{e.disciplia}}"></output>
+              <br>
+              <output  type="text" name="periodo" id="periodo" >Inicio: {{e.anoInicio}}  &nbsp;&nbsp; Fin: {{e.anoFin}}</output>
+            <br>
+            <br>                    
+              
+                   
+          </li>
+    </ul>
+
+    </div>
+
+    </div>
+
+
+
+    
+  </div>
+
+
+ 
+  <div  class="awards">
+    <h2>Awards</h2>
+    <ul >
+        <li  *ngFor="let a of profesor.awards">
+
+                    {{a.description}}.
+                    
+                    <output type="text" class="primaryA" name="year" id="year">({{a.year}})</output>
+                    <br>
+                    <br>
+            
+          </li> 
+    </ul>
+
+</div>
+    
+
+    <!-- Capa para el pie de página -->
+     
+   <div id="pie">   
+
+
+    </div>
+
+    

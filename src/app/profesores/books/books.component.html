@@ -1,0 +1,24 @@
+<div class="fondo">
+<h1>Books</h1>
+
+<div class="componente">
+
+  <ul>
+      <li class="publicacion" *ngFor="let l of libros">
+         
+          <h3>{{l.titulo}}</h3>
+         
+          <label for="fechaPublicacion">Publication: </label>
+          <output type="text" name="fechaPublicacion" id="fechaPublicacion" value="{{l.fechaPublicacion}}"></output>
+          <br>
+          <label for="editorial">Editorial: </label>
+          <output type="text" name="editorial" id="editorial" value="{{l.editorial}}"></output>
+          <br>
+          <label for="isbn">ISBN: </label>
+          <output type="text" name="isbn" id="isbn" value="{{l.isbn}}"></output>
+          
+        </li>
+  </ul>
+</div>
+
+</div>
